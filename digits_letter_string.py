@@ -5,7 +5,7 @@ def digits_letters(s):
     count_char=0
     for i in s:
         if i.isnumeric():
-            count_num=count_num+1
+            count_num=count_num+ 1
         else:
             count_char=count_char+1
     print("characters count:",count_char)
